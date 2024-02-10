@@ -1,13 +1,232 @@
 <!DOCTYPE html>
 <html>
+    <head>
+	<style>
+	body {
+  		font-family: Tahoma;
+	}
+
+	.flex-container{
+		width: 80%;
+		align-items: center;
+    	justify-content: center;
+	}
+
+	.row {
+		display: flex;
+		width: auto;
+	}
+
+	</style>
+    </head>
     <body style="text-align: center">
         <h1 style="color: crimson">SIGCOMM '24 Paper #561</h1>
  
-        <h2>Robustness is What you need for Indoor Localization</h2>
+        <h1>Robustness is What you need for Indoor Localization</h1>
+		<br><br>
 
-	<iframe width="1000px" height="540px"
-	src="https://www.youtube.com/embed/XymQz3I6No0">
-	</iframe>
+		<h2> Real-Time Demo </h2>
+
+		<iframe width="1280px" height="720px"
+		src="https://www.youtube.com/embed/XymQz3I6No0">
+		</iframe>
+		<br><br><br><br>
+
+		<h2>Real Trajectories</h2>
+
+		<p>Checkpoints with trajectories from the BOF overlayed on top</p>
+
+		<h3>Trajectory 1</h3>
+
+			<div class="row">
+				<div class="column">
+					<p>Building 1</p>
+					<img src="files/img/building1_t1.png" alt="Building 1" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 2</p>
+					<img src="files/img/building2_t1.png" alt="Building 2" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 3</p>
+					<img src="files/img/building3_t1.png" alt="Building 3" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 4</p>
+					<img src="files/img/building4_t1.png" alt="Building 3" style="width:80%">
+				</div>
+			</div>
+
+		<br><br><br>
+
+		<h3>Trajectory 2</h3>
+
+			<div class="row">
+				<div class="column">
+					<p>Building 1</p>
+					<img src="files/img/building1_t2.png" alt="Building 1" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 2</p>
+					<img src="files/img/building2_t2.png" alt="Building 2" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 3</p>
+					<img src="files/img/building3_t2.png" alt="Building 3" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 4</p>
+					<img src="files/img/building4_t2.png" alt="Building 3" style="width:80%">
+				</div>
+			</div>
+
+		<br><br><br>
+
+		<h3>Trajectory 3</h3>
+
+			<div class="row">
+				<div class="column">
+					<p>Building 1</p>
+					<img src="files/img/building1_t3.png" alt="Building 1" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 2</p>
+					<img src="files/img/building2_t3.png" alt="Building 2" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 3</p>
+					<img src="files/img/building3_t3.png" alt="Building 3" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 4</p>
+					<img src="files/img/building4_t3.png" alt="Building 3" style="width:80%">
+				</div>
+			</div>
+
+		<br><br><br>
+
+		<h3>Trajectory 4</h3>
+
+			<div class="row">
+				<div class="column">
+					<p>Building 1</p>
+					<img src="files/img/building1_t4.png" alt="Building 1" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 2</p>
+					<img src="files/img/building2_t4.png" alt="Building 2" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 3</p>
+					<img src="files/img/building3_t4.png" alt="Building 3" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 4</p>
+					<img src="files/img/building4_t4.png" alt="Building 3" style="width:80%">
+				</div>
+			</div>
+
+		<br><br><br>
+
+		<h3>Trajectory 5</h3>
+
+			<div class="row">
+				<div class="column">
+					<p>Building 1</p>
+					<img src="files/img/building1_t5.png" alt="Building 1" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 2</p>
+					<img src="files/img/building2_t5.png" alt="Building 2" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 3</p>
+					<img src="files/img/building3_t5.png" alt="Building 3" style="width:80%">
+				</div>
+				<div class="column">
+					<p>Building 4</p>
+					<img src="files/img/building4_t5.png" alt="Building 3" style="width:80%">
+				</div>
+			</div>
+
+		<h2>Simulation Trajectories</h2>
+
+		<p>Initialization Area along with Trajectory. The Green Cross is the start, the Red Cross is the finish</p>
+
+		<h3>Trajectory 1</h3>
+
+		<div class="row">
+			<div class="column">
+				<p>Initialization</p>
+				<img src="files/img/OG9_Unif.png" alt="Trajectory 1" style="width:80%">
+			</div>
+			<div class="column">
+				<p>Trajectory 1</p>
+				<img src="files/img/Trajectory.png" alt="Trajectory 1" style="width:80%">
+			</div>
+		</div>
+
+		<br><br><br>
+
+		<h3>Trajectory 2</h3>
+
+		<div class="row">
+			<div class="column">
+				<p>Initialization</p>
+				<img src="files/img/OG9_Unif2.png" alt="Trajectory 2" style="width:80%">
+			</div>
+			<div class="column">
+				<p>Trajectory 2</p>
+				<img src="files/img/Trajectory2.png" alt="Trajectory 2" style="width:80%">
+			</div>
+		</div>
+
+		<br><br><br>
+
+		<h3>Trajectory 3</h3>
+
+		<div class="row">
+			<div class="column">
+				<p>Initialization</p>
+				<img src="files/img/OG9_Unif3.png" alt="Trajectory 3" style="width:80%">
+			</div>
+			<div class="column">
+				<p>Trajectory 3</p>
+				<img src="files/img/Trajectory3.png" alt="Trajectory 3" style="width:80%">
+			</div>
+		</div>
+
+		<br><br><br>
+
+		<h3>Trajectory 4</h3>
+
+		<div class="row">
+			<div class="column">
+				<p>Initialization</p>
+				<img src="files/img/OG9_Unif4.png" alt="Trajectory 4" style="width:80%">
+			</div>
+			<div class="column">
+				<p>Trajectory 4</p>
+				<img src="files/img/Trajectory4.png" alt="Trajectory 4" style="width:80%">
+			</div>
+		</div>
+
+		<br><br><br>
+
+		<h3>Trajectory 5</h3>
+
+		<div class="row">
+			<div class="column">
+				<p>Initialization</p>
+				<img src="files/img/OG9_Unif5.png" alt="Trajectory 5" style="width:80%">
+			</div>
+			<div class="column">
+				<p>Trajectory 5</p>
+				<img src="files/img/Trajectory5.png" alt="Trajectory 5" style="width:80%">
+			</div>
+		</div>
+
+		<br><br><br>
 
     </body>
 </html>
