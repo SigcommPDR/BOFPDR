@@ -34,34 +34,43 @@
 
 		<h2>Stress-Testing Real Trajectories</h2>
 
-		<p>Final Convergence after very long trajectories, 6 minutes+. Ground truth marked with Green Square. 
-			Start point converges after running Backward Algorithm on the End point distribution. Heading angle deviates due to Gyroscope Bias</p>
-
-		<h3>Trajectory 1, 773 Steps, 60 degree deviation</h3>
+		<p>Final Convergence after a 10 minutes and 1065 steps. Ground truth marked with Green Square. Start point converges after running Backward Algorithm on the End point distribution. 
+			44 degree deviation due to Gyroscope Drift</p>
 
 		<div class="row">
 			<div class="column">
-				<p>End Point</p>
-				<img src="files/img/building4_st1_end.png" alt="End" style="width:80%">
+				<p>End Point after 1065 steps</p>
+				<img src="files/img/building4_st2_end.png" alt="End" style="width:80%">
 			</div>
 			<div class="column">
-				<p>Start Point</p>
-				<img src="files/img/building4_st1_start.png" alt="Start" style="width:80%">
+				<p>Start Point using Backward Algorithm on Forward algorithm output</p>
+				<img src="files/img/building4_st2_start.png" alt="Start" style="width:80%">
 			</div>
 		</div>
 
 		<br><br>
 
-		<h3>Trajectory 2, 1065 steps, 44 degree deviation</h3>
+		<div class="row">
+			<div class="column">
+				<p>Distribution after 196 steps</p>
+				<img src="files/img/building4_st2_196.png" alt="End" style="width:80%">
+			</div>
+			<div class="column">
+				<p>Multimodal distribution after 344 steps due to heading deviation</p>
+				<img src="files/img/building4_st2_344.png" alt="Start" style="width:80%">
+			</div>
+		</div>
+
+		<br><br>
 
 		<div class="row">
 			<div class="column">
-				<p>End Point</p>
-				<img src="files/img/building4_st2_end.png" alt="End" style="width:80%">
+				<p>Distribution after 660 steps</p>
+				<img src="files/img/building4_st2_660.png" alt="End" style="width:80%">
 			</div>
 			<div class="column">
-				<p>Start Point</p>
-				<img src="files/img/building4_st2_start.png" alt="Start" style="width:80%">
+				<p>Distribution after 870 steps</p>
+				<img src="files/img/building4_st2_870.png" alt="Start" style="width:80%">
 			</div>
 		</div>
 
